@@ -5,19 +5,52 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 42px;
+  display: flex;
+  text-align: left;
+  align-items: center;
   background: darkmagenta;
   color: white;
+  padding-inline-start: 16px;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.content {
+  display: flex;
+}
+
+.container-cards {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  padding: 3%;
+}
+
+.card {
+  height: 210px;
+  width: 220px;
 }
 
 .footer {
-  height: 72px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   background: #eee;
   color: darkmagenta;
 }
 
 .sidebar {
-  width: 300px;
+  display: flex;
+  max-width: 300px; 
+  min-width: 300px; 
   background: royalblue;
   box-sizing: border-box;
 }
@@ -26,4 +59,15 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+ul {
+  padding-inline-start: 5%;
+  list-style-type: none;
+  padding-bottom: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

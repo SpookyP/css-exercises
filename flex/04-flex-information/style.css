@@ -8,9 +8,25 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.image {
+  margin: 0 52px 0 52px;
+}
+.text {
+  width: 200px;
+}
+
 
 /* do not edit this footer */
 .footer {

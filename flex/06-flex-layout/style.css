@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
@@ -16,6 +19,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1%;
 }
 
 input {
@@ -24,4 +30,50 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2% 0 2%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-links,.right-links{
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 10%;
+  font-size: 11px;
+  font-weight: 600;
+  }
+ul {
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5%;
+  justify-content: space-between;
+  padding: 0 2% 0 2%;
+  background-color: #eeeeee;
 }
